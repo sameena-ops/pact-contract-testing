@@ -52,7 +52,7 @@ services:
       - 8080:8080
       - 50000:50000
     links:
-      - pact_broker:pact_broker.com
+      - pact_broker:pact_broker
 
     # uncomment for docker in docker
     privileged: true
